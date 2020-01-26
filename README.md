@@ -1,5 +1,7 @@
 # vuemovieapp
 
+# Search the Open Movie database to return films with pictures and their ratings
+
 ## Project setup
 ```
 npm install
