@@ -22,7 +22,7 @@ export default {
         selected: {},
         showPopup: false,
         notClosed: false,
-        apiURL: 'http://www.omdbapi.com/?apikey=496a6e34'
+        apiURL: 'http://www.omdbapi.com/?apikey=XXXX'
     }
   },
   methods:{

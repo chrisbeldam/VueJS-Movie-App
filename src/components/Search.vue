@@ -19,7 +19,7 @@ export default {
   },
   methods:{
     searchMovies(){
-    axios.get('http://www.omdbapi.com/?s='+this.searchTerm+'&apikey=496a6e34&page=1&type=movie&Content-Type=application/json')
+    axios.get('http://www.omdbapi.com/?s='+this.searchTerm+'&apikey=XXXX&page=1&type=movie&Content-Type=application/json')
     .then(response => {
       this.films = response.data.Search
       console.log(this.films);
